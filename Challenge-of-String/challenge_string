@@ -11,7 +11,7 @@ int main (){
 	int low = 0, up;
 	//Contador Letras para armazenar
 
-	arq = fopen("desafio.txt", "r");
+	arq = fopen("text.txt", "r");
 
 	if(arq == NULL){
 		printf("Erro na abertura do arquivo. Programa encerrado");
